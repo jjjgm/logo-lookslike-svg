@@ -1,4 +1,5 @@
 //TODO: Import required classes to run tests
+import { SVG } from '../lib/svg.js';
 
 test("should render a 300 x 200 svg element", () => {
   const expectedSvg =

@@ -17,6 +17,7 @@ Create a SVG file that will generate a logo based on the given responses from th
 ## Usage
 
 ## Credits
+[SVG DOM](https://github.com/svgdotjs/svgdom)
 
 ## Testing
 [!Video Submission Link]()
