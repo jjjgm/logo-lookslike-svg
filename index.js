@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const fileSystem = require('./node_modules/graceful-fs');
 const {Circle, Triangle, Square} = require('./lib/shapes');
 // const generateMarkdown = require('./shapes');
 // console.log(generateMarkdown);
@@ -63,7 +62,7 @@ let questions = [
 
 // function to write in user responses for later use
 function writeToFile(fileName, data) {
-    fileSystem.writeFile(fileName, data, (err) => {
+    fs.writeFile(fileName, data, (err) => {
         if (err) {
             return console.log(err);
         }
@@ -74,7 +73,7 @@ function writeToFile(fileName, data) {
 // function to initialize creation of logo
 function init() {
     let answers = inquirer.prompt(questions);
-    
+
 
 // function init() {
 //     inquirer.prompt(questions)
