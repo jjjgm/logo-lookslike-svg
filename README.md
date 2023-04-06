@@ -52,3 +52,4 @@ MIT License
 
 ## Assets
 ![GeneratedPinkOrangeLogo](./examples/generated%20logo.svg.png)
+![orangelogofromvideo](./examples/examplevideologo.png)
