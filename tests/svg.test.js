@@ -1,9 +1,7 @@
 //TODO: Import required classes to run tests
-//const {SVG, Square, Error} = require('../lib/svg.js');
-// const svg = new SVG(`${this.color}, ${this.text}`);
 
 const SVG = require("../lib/svg.js");
-// const { Square } = require("../lib/shapes");
+const {Square} = require("../lib/shapes.js");
 
 test("should render a 300 x 200 svg element", () => {
     const expectedSvg =
