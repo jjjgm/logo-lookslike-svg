@@ -1,8 +1,6 @@
 
 //TODO: Import required classes to run tests
-// import { Square } from '../lib/shapes';
-// import { Circle } from '../lib/shapes';
-// import { Triangle } from '../lib/shapes';
+
 const { Circle, Triangle, Square } = require('../lib/shapes');
 
 describe("Circle", () => {
